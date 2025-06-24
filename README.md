@@ -59,3 +59,27 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Project Setup
+
+- **Clone the repo - git clone https://github.com/your-username/online-quiz.git**
+- **Open the terminal and change the directory to the project directory - cd online-quiz**
+- **Create .env and copy .env.example - cp .env.example .env**
+- **In env file change the value to these values :-**
+- **DB_CONNECTION=mysql**
+- **DB_DATABASE=online-quiz**
+- **DB_USERNAME=your username**
+- **DB_PASSWORD= your password**
+- **Install dependencies - composer install**
+- **Generate application key with this command - php artisan key:generate**
+- **Run migration - php artisan migrate**
+- **Run project - php artisan serve**
+
+### URL of Project
+
+- **Visit the url http://127.0.0.1:8000/ to get into the application. This is Login Page. Users can login into the application using Email and pasword**
+- -**GET http://127.0.0.1:8000/register - Registeration page. If the user is not resgitered, then this page is used to register the user.**
+- **GET http://127.0.0.1:8000//dashboard - This pagee is used for Show category selection**
+- **GET http://127.0.0.1:8000/Start Quiz - This page is used for Begin quiz for selected category.**
+- **GET http://127.0.0.1:8000/quiz/{category}/{number} - This page is used for Display a single question.**
+- **DELETE http://127.0.0.1:8000/quiz/result - This page is used for displaying the result of quiz.**
