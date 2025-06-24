@@ -62,7 +62,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Project Setup
 
-- **Clone the repo - git clone https://github.com/your-username/online-quiz.git**
+- **Clone the repo - git clone https://github.com/Akhil0632/online-quiz.git**
 - **Open the terminal and change the directory to the project directory - cd online-quiz**
 - **Create .env and copy .env.example - cp .env.example .env**
 - **In env file change the value to these values :-**
