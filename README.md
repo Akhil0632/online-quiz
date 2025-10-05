@@ -59,3 +59,29 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Project Setup
+
+- **Clone the repo - git clone https://github.com/Akhil0632/online-quiz.git**
+- **Open the terminal and change the directory to the project directory - cd admin-app**
+- **Create .env and copy .env.example - cp .env.example .env**
+- **In env file change the value to these values :-**
+- **DB_CONNECTION=mysql**
+- **DB_DATABASE=admin-app**
+- **DB_USERNAME=your username**
+- **DB_PASSWORD= your password**
+- **Install dependencies - composer install**
+- **Generate application key with this command - php artisan key:generate**
+- **Run migration - php artisan migrate**
+- **Insatll the Node JS dependencies- npm install**
+- **Run the NodeJS - npm run dev**
+- **Run project - php artisan serve**
+
+### URL of Project
+
+- **Visit the url http://127.0.0.1:8000/login to get into the application. This is Login Page. Users can login into the application using their user credientals. If the user is not registered, then user can register into system by clicking the Signup Button.**
+- -**After login, the page will rediirected to quiz categories. Here you can select your own categories. By selecting a category, User can move into the questions.**
+- **In question section, there are 15 question with 4 mcq options. So you select a option from the 4 given options.**
+- **After completing 15 questions, you can see your result.**
+- **You can logout the application by clicking the logout button.**
+
