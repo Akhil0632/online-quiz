@@ -63,11 +63,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Project Setup
 
 - **Clone the repo - git clone https://github.com/Akhil0632/online-quiz.git**
-- **Open the terminal and change the directory to the project directory - cd admin-app**
+- **Open the terminal and change the directory to the project directory - cd online-quiz**
 - **Create .env and copy .env.example - cp .env.example .env**
 - **In env file change the value to these values :-**
 - **DB_CONNECTION=mysql**
-- **DB_DATABASE=admin-app**
+- **DB_DATABASE=online-quiz**
 - **DB_USERNAME=your username**
 - **DB_PASSWORD= your password**
 - **Install dependencies - composer install**
